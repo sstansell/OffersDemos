@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*background: linear-gradient(
+    to bottom,
+    #2aa8d7 0%,
+    #2aa8d7 500px,
+    #808285 500px
+  ); */
+  /* W3C */
+}
+
+header {
+  color: #000;
+  padding-top: 0.5em;
+}
+
+header > .row {
+  max-width: 100%;
+}
+
+header {
+  background-color: #fff;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  margin-top: 0.75em;
+  font-size: 28px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.56;
+}
+
+a {
+  color: #39af27;
+  text-decoration: underline;
+}
+a:hover {
+  color: #39af27;
+}
+a:active {
+  color: #39af27;
+}
+a:visited {
+  color: #39af27;
+}
+
+button {
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 8px;
+  background-color: #39af27;
+  margin-top: 24px;
+}
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+button a:hover {
+  color: #fff;
+}
+button a:active {
+  color: #fff;
+}
+button a:visited {
+  color: #fff;
+}
+
+div.wrapper {
+  background-color: #fff;
+}
+
+section.privacy {
+  background-color: #434343;
+  color: #fff;
+}
+
+section.privacy p {
+  font-size: 10px;
+}
+
+.container {
+  margin: 0;
+  max-width: 1200px;
+}
+
+#dealerLogo {
+  max-width: 150px;
+}
+
+.mt2 {
+  margin-top: 2em;
+}
+
+.pl3 {
+  padding-left: 3em;
+}
+
+.pr3 {
+  padding-right: 3em;
+}
+
+.surge {
+  color: #39af27;
+}
+
+.noPad {
+  padding: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.savings {
+  font-size: 55px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2d2f31;
+  margin-top: 38px;
+}
+
+.savingsSubhead {
+  font-size: 38px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.savingsAmount {
+  font-size: 55px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7ed321;
+  margin-top: 12px;
+}
+
+.savingsExplanation {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 6px;
+}
+
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0px auto;
+  float: none;
+  border: 1px solid #979797;
+}
+
+thead {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #000000;
+  background-color: #d8d8d8;
+}
+
+th {
+  padding: 12px 21px;
+}
+
+tr {
+  width: 100%;
+}
+
+td {
+  border: 1px solid #979797;
+}
+
+.tableValue {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.tableLabel {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.modal-dialog {
+  width: 510px;
+  max-width: 95%;
+  height: 640px;
+}
+
+.modal-body {
+  background-color: #83b3dc;
+  color: #fff;
+  font-size: 24px;
+  border: 25px solid #fff;
+}
+
+.close {
+  top: 1em;
+  right: 1em;
+  color: #fff;
+  margin-top: 0;
+}
+
+.close:hover {
+  color: #fff;
+}
