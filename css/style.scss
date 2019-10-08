@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+$color-red: #EB0A1E;
+$color-black: #000;
+$color-white: #fff;
+$color-grey: #434343;
+$color-green: #39AF27;
+$font-stack: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family:  $font-stack;
+  /*background: linear-gradient(
+    to bottom,
+    #2aa8d7 0%,
+    #2aa8d7 500px,
+    #808285 500px
+  ); */ /* W3C */
+}
+
+header {
+  color: $color-black;
+  padding-top:.5em;
+}
+header > .row {
+  max-width: 100%;
+}
+header {
+  background-color: $color-white;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+h1 {
+  margin-top: 0.75em;
+  font-size: 28px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color-black;
+  font-family: $font-stack;
+}
+p {
+  font-size: 16px;
+  line-height: 1.56;
+}
+a{
+  color: $color-green;
+  text-decoration: underline;
+  &:hover { color: $color-green; }
+  &:active{ color: $color-green; }
+  &:visited{ color: $color-green; }
+}
+button {
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color-white;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 8px;
+  background-color: $color-green;
+  margin-top: 24px;
+  a{
+    color: $color-white;
+    text-decoration: none;
+    &:hover { color: $color-white; }
+    &:active{ color: $color-white; }
+    &:visited{ color: $color-white; }
+  }  
+}
+
+
+div.wrapper {
+  background-color: $color-white;
+}
+
+section.privacy {
+  background-color: $color-grey;
+  color: $color-white;
+}
+
+section.privacy p {
+  font-size: 10px;
+}
+.container {
+  margin: 0;
+  max-width: 1200px;
+}
+
+#dealerLogo {
+  max-width: 150px;
+  
+}
+.mt2 {
+  margin-top: 2em;
+}
+.pl3 {
+  padding-left: 3em;
+}
+.pr3 {
+  padding-right: 3em;
+}
+
+.surge{
+  color: $color-green;
+}
+
+.noPad {
+  padding: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.savings {
+  font-size: 55px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2d2f31;
+  margin-top: 38px;
+}
+.savingsSubhead {
+  font-size: 38px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color-black;
+}
+
+.savingsAmount {
+  font-size: 55px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7ed321;
+  margin-top: 12px;
+}
+.savingsExplanation {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 6px;
+}
+
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0px auto;
+  float: none;
+  border: 1px solid #979797;
+}
+thead {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #000000;
+  background-color: #d8d8d8;
+}
+th {
+  padding: 12px 21px;
+}
+tr {
+  width: 100%;
+}
+td {
+  border: 1px solid #979797;
+}
+.tableValue {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.tableLabel {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.modal-dialog {
+  width: 510px;
+  max-width: 95%;
+  height: 640px;
+}
+.modal-body {
+  background-color: #83b3dc;
+  color: #fff;
+  font-size: 24px;
+  border: 25px solid #fff;
+}
+
+.close {
+  top: 1em;
+  right: 1em;
+  color: #fff;
+  margin-top: 0;
+}
+.close:hover {
+  color: #fff;
+}
